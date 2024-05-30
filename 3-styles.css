@@ -445,3 +445,33 @@ main #our_results {
         gap: 3rem;
     }
 }
+
+/* Contact us
+    ============================= */
+
+    #contact_us form {
+        width: 40%;
+        margin: 1rem 0 3rem 0;
+    }
+    
+    #contact_us form .form-field {
+        margin: 2rem 0;
+        border-bottom: 0.1rem solid var(--color-grey);
+    }
+    
+    #contact_us .form-field label {
+        font-weight: var(--font-weight-bold);
+    }
+    
+    #contact_us .form-field input {
+        border-top: none;
+        border-left: none;
+        border-right: none;
+        width: 100%;
+    }
+    
+    @media all and (max-width: 480px) {
+        #contact_us form {
+            width: 90%;
+        }
+    }
